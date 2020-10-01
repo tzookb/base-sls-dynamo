@@ -1,0 +1,27 @@
+{
+  "name": "myphone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "slslocal": "sls offline start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.714.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "js-yaml": "^3.14.0",
+    "serverless": "^1.75.1",
+    "serverless-dynamodb-local": "^0.2.39",
+    "serverless-http": "^2.5.0"
+  },
+  "devDependencies": {
+    "serverless-dotenv-plugin": "^3.0.0",
+    "serverless-offline": "^6.4.0",
+    "serverless-offline-express": "^0.4.3"
+  }
+}
